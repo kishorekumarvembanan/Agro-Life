@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+   *{
+    margin: 0;
+     }
+    :root{
+       --blur-color: black;
+       --primary-text-color:white;
+     }
+      body{
+        background-color: var(--blur-color) ;
+      
+        backdrop-filter: blur(20px);
+        visibility: visible;
+        
+      }
+      img{
+        width: 100%;
+        max-height:100vh;
+        position: absolute;
+        opacity: 0.4;
+      }
+      .cont{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: 0 20% 0 20%;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+    
+     .cont p{
+        color:var(--primary-text-color) ;
+        font-size: 2.5rem;
+        text-align: justify;
+     }
+     .team{
+        width: 100%;
+        margin:50px 0 0 0 ;
+        justify-content: center;
+        align-items: center;
+     }
+     .team ul{
+       
+        display: flex;
+        justify-content: space-between;
+     }
+     .team ul li p{
+        font-size: 34px;
+     }
+     .done{
+        margin-top: 70px;
+     }
+    
+
+    </style>
+   <img src="pexels-tom-fisk-1595108.jpg" alt="bgimg">
+    <div class="cont">
+        <p>The “Agro Life” website serves as a user-friendly interface and has some versatile features in it which makes it easy to use for farmers and it connects the farmers with merchants all across the globe so that they can get more exposure and it also benefits the sellers they can connect with the farmers more by eliminating the middle man with the help of the “Agro Life”  they can send their products all across the globe without any problem, the customers can view in detail about the product and see various similar products and choose from them, this is how the “Agro Life” is helping both the farmers and the merchants.</p><br>
+       
+        <div class="team">
+            <p class="done">Contributors:</p> 
+            <ul>
+                <li><p>Kishore Kumar</p></li>
+                <li><p>Subash Karthik</p></li>
+                <li><p>Salai Soumya</p></li>
+                <li><p>Divya Bharathi</p></li>
+                <li><p>Adithya Rao</p></li>
+            </ul>
+        </div>
+    </div>
+
+  
+</body>
+</html>
